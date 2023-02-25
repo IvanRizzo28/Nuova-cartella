@@ -1,0 +1,39 @@
+@import 'variabili.css';
+@import 'common.css';
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+    height: 150px;
+    display: block;
+}
+
+#comportamento{
+    background-color: var(--ir-color-1);
+    color: #fff;
+}
+
+footer{
+    background-color: var(--ir-color-4);
+}
+
+footer ul a:hover{
+    text-decoration: underline!important;
+}
+
+.creatore{
+    background-color: rgb(24, 23, 50);
+}
+
+.comune{
+    width: 80px;
+}
+
+@media screen and (min-width: 991px) {
+    .carousel-item img{
+        max-height: 50vh;
+        object-fit: cover;
+    }
+}

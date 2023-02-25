@@ -1,0 +1,9 @@
+:root{
+    --ir-color-1: #1B9ABB;
+    --ir-color-2: #D0382D;
+    --ir-color-3: #91C149;
+    --ir-color-4: rgb(24, 23, 23);
+    --ir-color-5: #fff;
+    /*altezza*/
+    --ir-altezza: 50vh;
+}

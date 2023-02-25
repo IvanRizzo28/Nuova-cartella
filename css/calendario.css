@@ -1,0 +1,50 @@
+@import 'variabili.css';
+@import 'common.css';
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+    height: 150px;
+    display: block;
+}
+
+main{
+    padding: 20px 0;
+}
+
+footer{
+    background-color: var(--ir-color-4);
+}
+
+footer ul a:hover{
+    text-decoration: underline!important;
+}
+
+.creatore{
+    background-color: rgb(24, 23, 50);
+}
+
+.comune{
+    width: 80px;
+}
+
+.annullato{
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: default;
+}
+
+.evento-annullato{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: red;
+    display: none;
+}
+
+.annullato .evento-annullato{
+    display: inline;
+}
